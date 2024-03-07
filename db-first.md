@@ -11,4 +11,5 @@ Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardant
 |cilindrata|DECIMAL(4,3)
 |anno| YEAR
 |immatricolazione| DATE
-|km|INT|
+|km|INT|AUTO_INCREMENT|
+|condizioni| TEXT
