@@ -5,9 +5,10 @@ Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardant
 
 |FIELD|TYPE|ATTRIBUTES|INDEXS|
 | ------ | ---- | ---------- | ------ |
-| telaio| INT| AUTO_INCREMENT UNIQUE| PRIMARY KEYS|
+| telaio| INT| AUTO_INCREMENT UNIQUE NOT_NULL| PRIMARY KEYS|
 |colore|VARCHAR(15)
 |marca|VARCHAR(20)
 |cilindrata|DECIMAL(4,3)
 |anno| YEAR
 |immatricolazione| DATE
+|km|INT|
