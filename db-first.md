@@ -9,3 +9,5 @@ Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardant
 |colore|VARCHAR(15)
 |marca|VARCHAR(20)
 |cilindrata|DECIMAL(4,3)
+|anno| YEAR
+|immatricolazione| DATE
